@@ -7,7 +7,8 @@ Deformable shape representations, parameterized by deformations relative to a gi
 ![CoRLD Network](figures/CoRLD_fig.png)
 
 ## CoRLD in Learned contrastive shape representations
-![CoRLD Network](figures/lat_rep_clf.png)
+<img src="figures/lat_rep_clf.png" alt="CoRLD Network" style="width:70%; display:block; margin:auto;"/>
+
 <b> Key Takeaway 01. </b> Integrating contrastive learning significantly enhances performance under both template and template-free settings. Notably, CoRLD's template-free variant with contrastive learning achieves optimal performance ($90.82\%$), indicating that template dependency can be effectively eliminated while maintaining robust shape-based classification through contrastive feature learning.
 
 <img src="figures/vel_defs.png" alt="CoRLD Network" style="width:80%; display:block; margin:auto;"/>
