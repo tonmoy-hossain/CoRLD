@@ -9,3 +9,6 @@ Deformable shape representations, parameterized by deformations relative to a gi
 ## CoRLD in Learned contrastive shape representations
 ![CoRLD Network](figures/lat_rep_clf.png)
 <b> Key Takeaway 01. </b> Integrating contrastive learning significantly enhances performance under both template and template-free settings. Notably, CoRLD's template-free variant with contrastive learning achieves optimal performance ($90.82\%$), indicating that template dependency can be effectively eliminated while maintaining robust shape-based classification through contrastive feature learning.
+
+![CoRLD Network](figures/vel_defs.png)
+b> Key Takeaway 02. </b> Both w/o and w/ template models achieve comparable performance, evidenced by nearly identical deformed outputs with negligible differences. The transformation fields demonstrate similar smoothness and topological properties across both approaches, indicating our model can predict anatomically plausible deformations without requiring explicit template guidance. 
