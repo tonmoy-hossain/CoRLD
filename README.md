@@ -13,3 +13,7 @@ Deformable shape representations, parameterized by deformations relative to a gi
 <img src="figures/vel_defs.png" alt="CoRLD Network" style="width:80%; display:block; margin:auto;"/>
 
 <b> Key Takeaway 02. </b> Both w/o and w/ template models achieve comparable performance, evidenced by nearly identical deformed outputs with negligible differences. The transformation fields demonstrate similar smoothness and topological properties across both approaches, indicating our model can predict anatomically plausible deformations without requiring explicit template guidance. 
+
+
+## Training and Testing
+To train and test our CoRLD model, open and run the 'CoRLD_network.ipynb' notebook. This notebook contains all the necessary code, including data loaders, model architecture, and training pipeline, to streamline the training and testing processes. 
